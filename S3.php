@@ -23,7 +23,7 @@ class S3 implements S3ClientInterface
 
     public function __construct($accessKeyId, $secretAccessKey)
     {
-        $this->_instance = new \Webiny\Component\Amazon\Bridge\S3\S3($accessKeyId, $secretAccessKey);
+        $this->_instance = new Bridge\S3\S3($accessKeyId, $secretAccessKey);
     }
 
     /**
