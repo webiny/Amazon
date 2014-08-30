@@ -25,12 +25,6 @@ class S3 implements S3ClientInterface
 
     public function __construct($accessKeyId, $secretAccessKey)
     {
-        ClassLoader::getInstance()->registerMap([
-                                                    'Aws'    => __DIR__ . '/../../../../../Aws',
-                                                    'Guzzle' => __DIR__ . '/../../../../../Guzzle',
-                                                ]
-        );
-
         $this->_instance = S3Client::factory([
                                                  'key'    => $accessKeyId,
                                                  'secret' => $secretAccessKey,

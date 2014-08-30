@@ -9,6 +9,7 @@ namespace Webiny\Component\Amazon;
 
 use Webiny\Component\Amazon\S3\RuntimeException;
 use Webiny\Component\Amazon\S3\S3ClientInterface;
+use Webiny\Component\StdLib\ComponentTrait;
 
 
 /**
@@ -18,7 +19,11 @@ use Webiny\Component\Amazon\S3\S3ClientInterface;
  */
 class S3 implements S3ClientInterface
 {
+    use ComponentTrait;
 
+    /**
+     * @var Bridge\S3\S3
+     */
     private $_instance;
 
     public function __construct($accessKeyId, $secretAccessKey)
