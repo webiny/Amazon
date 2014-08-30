@@ -18,7 +18,8 @@
 	"minimum-stability": "dev",
 	"require": {
 		"php": ">=5.4.0",
-		"aws/aws-sdk-php": "dev-master"
+		"aws/aws-sdk-php": "dev-master",
+		"webiny/std-lib": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.1.*"
