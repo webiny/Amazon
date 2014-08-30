@@ -1,0 +1,34 @@
+{
+	"name": "webiny/amazon",
+	"type": "library",
+	"description": "Webiny Amazon Component",
+	"keywords": ["amazon", "S3"],
+	"homepage": "http://www.webiny.com/",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sven Al Hamad",
+			"email": "sven@webiny.com"
+		},
+		{
+			"name": "Pavel Denisjuk",
+			"email": "pavel@webiny.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.4.*",
+		"aws/aws-sdk-php": "dev-master",
+		"guzzle/guzzle": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Webiny\\Component\\Amazon\\": ""
+		}
+	},
+	"extras": {
+		"branches": {
+			"dev-master": "~0.9"
+		}
+	}
+}
