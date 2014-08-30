@@ -12,10 +12,10 @@ use Webiny\Component\Amazon\S3;
 
 class AmazonS3Test extends \PHPUnit_Framework_TestCase
 {
-    private $_accessKeyId = 'AKIAIQ2AM5EWWMP32EZA';
-    private $_secretAccessKey = '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';
-    private $_bucket = 'webiny-test-bucket';
-    private $_key = 'AmazonS3Test.txt';
+    private $_accessKeyId = ''; // set this
+    private $_secretAccessKey = ''; // set this
+    private $_bucket = ''; // set this
+    private $_key = ''; // set this
 
     /**
      * @dataProvider driverSet
