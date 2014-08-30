@@ -3,6 +3,27 @@ Amazon Component
 
 Amazon component serves as a wrapper for Amazon Web Services SDK. Currently only S3 component is being used.
 
+Install the component
+---------------------
+The best way to install the component is using Composer.
+
+```json
+{
+    "require": {
+        "webiny/amazon": "dev-master"
+    }
+}
+```
+For additional version of the package, visit the [Packagist page](https://packagist.org/packages/webiny/amazon).
+
+Once you have your `composer.json` file in place, just run the install command.
+
+    $ $ php composer.phar install
+
+To learn more about Composer, and how to use it, please visit [this link](https://getcomposer.org/doc/01-basic-usage.md).
+
+Alternatively, you can also do a Git checkout of this repo.
+
 Resources
 ---------
 To run unit tests, you need to use the following command:
