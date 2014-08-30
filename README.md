@@ -11,4 +11,4 @@ To run unit tests, you need to use the following command:
     $ composer.phar install
     $ phpunit
 
-Make sure that you also set your S3 API details in `Test/AmazonS3Test.php` before running the tests.
+Make sure that you also set your S3 API details in `Tests/AmazonS3Test.php` before running the tests.
